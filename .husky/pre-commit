@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "Linting files..."
+
+npm run lint
+
+echo "Building project..."
+
+npm run build
